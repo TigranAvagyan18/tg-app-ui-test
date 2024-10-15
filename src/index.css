@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: Inter, sans-serif;
+}
+*:focus,
+*:focus-visible,
+*:focus-within {
+  outline: none;
+}
+body {
+ @apply text-white;
+}
